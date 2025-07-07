@@ -1,19 +1,103 @@
-@media screen and (min-width:1023px){
+@media screen and (min-width:800px){
+	
 	.home{
 		width: 768px;
 		height:111px;
 		display:flex;
-		flex-direction: grid;
-		grid-template-columns: 1fr 1fr;
+		flex-direction: row;
 		gap:16px;
 		background-color:var(--cor-branco-opaco);
 	}
 	
 	.diario{
-	width: 768px;
-	height: 42px;
-	background-color:var(--cor-branco-opaco);
-	padding-bottom:0.25rem;
-}
+		width: 768px;
+		height: 42px;
+		background-color:var(--cor-branco-opaco);
+		padding-top:1.5em;
+		padding-bottom:0.25em;
+	}
 
+	.card{
+		width: 768px;
+		height: auto;
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		background-color:var(--cor-branco-opaco);
+		padding-bottom:0.25rem;
+	}
+	
+
+	.container__imagem{
+		position: fixed;
+		left: 710px;
+		top: 450px;
+	}
+	
+	.botao__flutuante__fab{
+		width: 56px;
+		height:56px;
+		position: fixed;
+		left: 710px;
+		top: 390px;	
+	}
+
+	.botao__flutuante__video{
+		width: 56px;
+		height:56px;
+		position: fixed;
+		left: 710px;
+		top: 334px;		
+	}
+	
+	.legenda__botao__pin{
+		background-color:var(--cor-botao-azul);
+		color: var(--cor-branco);
+		border: solid 1px var(--cor-cinza);
+		border-radius:12px;
+		position: fixed;
+		text-align: center;
+		left: 530px;
+		top: 400px;	
+		font-family:var(--fonte);
+		font-size:12px;
+		font-weight:500;
+		line-height:1.6;
+		padding: 0.5em;
+	}
+
+	.legenda__botao__video{
+		background-color:var(--cor-botao-azul);
+		color: var(--cor-branco);
+		border: solid 1px var(--cor-cinza);
+		border-radius:12px;
+		position: fixed;
+		text-align: center;
+		left: 530px;
+		top: 345px;	
+		font-family:var(--fonte);
+		font-size:12px;
+		font-weight:500;
+		line-height:1.6;
+		padding: 0.5em;
+	}
+
+	.card__rodape{
+		width: 730px;
+		height: 58px;
+		border-top-left-radius: 12px;
+		border-top-right-radius: 12px;
+		border: solid 0.5px;
+		border-color:var(--cor-preto);
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		list-style-type:none;
+		align-content: center;
+		background-color: var(--cor-branco);
+		margin: auto;
+		position: relative;
+		margin-left:8px;
+		position: fixed;
+		top:950px;
+	}
 }

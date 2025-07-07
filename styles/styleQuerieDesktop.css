@@ -1,0 +1,226 @@
+@media screen and (min-width:1440px){
+	
+	.home{
+		width: 1536px;
+		height:160px;
+		display:flex;
+		flex-direction: row;
+		gap:16px;
+		background-color:var(--cor-branco-opaco);
+	}
+	
+	.foto__perfil{
+		width: 96px;
+		height:96px;
+		border: none;
+		border-radius: 50%;
+		margin: 65px 0px 0px 135px;
+		opacity:1;
+	}
+	
+	.home__titulo{
+		width: 162px;
+		height: 50px;
+		font-weight: 700;
+		font-family:var(--fonte);
+		font-size: 31px;
+		line-height: 160%;
+		text-align: left;
+		color:var(cor-preto);
+	}
+
+
+	.home__texto{
+		width: 193px;
+		height: 29px;
+		font-weight: 400;
+		font-family:var(--fonte);
+		font-size: 18px;
+		line-height: 160%;
+		text-align: left;
+		color:var(cor-cinza);	
+	}
+
+	.diario{
+		width: 1536px;
+		height: 42px;
+		background-color:var(--cor-branco-opaco);
+		padding-top:1.5em;
+		padding-bottom:0.25em;
+	}
+
+	.diario__dia{
+		color:var(--cor-preto);
+		font-weight: 700;
+		font-size: 20px;
+		line-height:1.6;
+		font-family:var(--fonte);
+		margin-left:156px;
+	}
+
+
+	.card{
+		width: 1460px;
+		height: auto;
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		background-color:var(--cor-branco-opaco);
+		padding-left: 75px;
+		padding-bottom:0.25rem;
+	}
+	
+	.card__consulta{
+		display: flex;
+		flex-direction:column;
+		background-color: var(--cor-branco);
+		width: 400px;
+		height: 170px;
+		margin: auto;
+		border: solid 1px;
+		border-color: var(--cor-cinza);
+		border-radius:8px;
+		list-style-type: none;
+		padding: 0.25em 0 0.25em 0;
+		margin-bottom:16px;
+}
+
+	.foto__paciente{
+		width: 48px;
+		height: 48px;
+		margin-left: 16px;
+		border-radius: 24px;
+	}
+
+	.card__paciente__nome{
+		font-family: var(--fonte);
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 1.6;
+		color: var(--cor-preto);
+		margin-left: 16px;
+	}
+
+	.card__paciente__modalidade{
+		font-family: var(--font);
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.6;
+		color:var(--cor-cinza);
+	}
+
+	.botao__video__chamada{
+		width: 172px;
+		height: 48px;
+		border-radius: 8px;
+		border-color:var(--cor-botao-laranja);
+		background-color:var(--cor-botao-laranja);
+		color: var(--cor-branco);
+		font-family: var(--fonte);
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.6;
+		text-align: center;
+		margin-left: 16px;
+		margin-top:1em;
+	}
+
+	.botao__audio__chamada{
+		width: 172px;
+		height: 48px;
+		border-radius: 8px;
+		border-color: var(--cor-cinza);
+		background-color:var(--cor-branco);
+		color: var(--cor-preto);
+		font-family: var(--fonte);
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.6;
+		text-align: center;
+		margin-top:1em;
+		margin-left: 16px;	
+	}
+
+	.botao__endereco{
+		width: 368px;
+		height: 48px;
+		border-radius: 8px;
+		background-color:var(--cor-botao-azul);
+		border-color: var(--cor-botao-azul);
+		color:var(--cor-branco);
+		font-family: var(--fonte);
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.6;
+		text-align: center;
+		margin-top:1em;
+		margin-left: 16px;
+	}
+
+
+	.container{
+		display:none;		
+	}
+
+	.card__rodape{
+		width: 100px;
+		height: 250px;
+		display:flex;
+		border-radius:12px;
+		flex-direction:column;
+		list-style-type:none;
+		justify-content: space-bteween;
+		align-items:flex-start;
+		background-color: var(--cor-branco);
+		margin: auto;
+		margin:0 8px 0 8px;
+		position: fixed;
+		top:0;
+		left:0;
+		border: none;
+	}
+
+	.texto__rodape{
+		display: flex;
+		flex-direction:row;
+		font-family:var(--fonte);
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 160%;
+		color:var(--cor-preto);
+		text-decoration: none;
+		margin:auto;
+		gap: 0.75em;
+	}
+
+	.icone__calendario{
+		width: 24px;
+		height: 26px;
+	}
+
+	.icone__clientes{
+		width: 24px;
+		height: 20px;
+	}
+
+	.icone__relatorios{
+		width: 24px;
+		height: 28px;
+	}
+
+	.icone__menu{
+		width: 24px;
+		height: 18px;
+	}
+	
+	
+	.texto__rodape:hover{
+		height:40px;
+		width: 100px;
+		background-color:var(--cor-cinza);
+		color: var(--cor-branco);
+		font-weight: 500;
+		text-decoration:none;
+		line-height: 160%;
+	}
+
+}

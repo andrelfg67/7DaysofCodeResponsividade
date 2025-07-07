@@ -1,0 +1,110 @@
+.form__cadastro{
+	display:none;
+}
+
+@media screen and (min-width:1440px){
+	
+
+	.form__cadastro{
+		display: flex;
+		flex-direction: column;
+		margin-left: 100px;
+		padding:2em;
+		gap: 0.5em;
+		font-family: var(--fonte);
+		font-size: 14px;
+		font-weight: 700px;
+		line-height:2;
+	}
+
+	.titulo__cadastro{
+		color:var(--cor-botao-azul);
+	}
+
+	.hr__cadastro{
+		width: 430px;
+	}
+
+	.form__cadastro__nome{
+		font-family: var(--fonte);
+		font-size: 14px;
+		font-weight: 500px;
+		width: 600px;
+		line-height:2;
+		border: solid 0.5px;
+		border-radius: 6px;
+		border-color:var(--cor-cinza);
+	}
+
+	.form__cadastro__tipo{
+		font-family: var(--fonte);
+		font-size: 14px;
+		font-weight: 500px;
+		width: 200px;
+		height: 2rem;
+		line-height:2;
+		border: solid 0.5px;
+		border-radius: 6px;
+		border-color:var(--cor-cinza);
+	}
+
+	.form__cadastro__tipo__lista{
+		font-family: var(--fonte);
+		font-size: 14px;
+		font-weight: 500px;
+		width: 200px;
+		line-height:2;
+		border: solid 0.5px;
+		border-radius: 6px;
+		border-color:var(--cor-cinza);
+	}
+
+	.form__cadastro__data{
+		font-family: var(--fonte);
+		font-size: 14px;
+		font-weight: 500px;
+		width:200px;
+		line-height:2;
+		border: solid 0.5px;
+		border-radius: 6px;
+		border-color:var(--cor-cinza);
+	}
+
+	.form__cadastro__horario{
+		font-family: var(--fonte);
+		font-size: 14px;
+		font-weight: 500px;
+		width:200px;
+		line-height:2;
+		border: solid 0.5px;
+		border-radius: 6px;
+		border-color:var(--cor-cinza);
+	}
+
+	.form__cadastro__observacoes{
+		font-family: var(--fonte);
+		font-size: 14px;
+		font-weight: 600px;
+		width:600px;
+		height:100px;
+		border: solid 0.5px;
+		border-radius: 6px;
+		border-color:var(--cor-cinza);
+	}
+
+	.cadastro__botao__registar{
+		width: 296px;
+		height: 48px;
+		border-radius: 8px;
+		border-color:var(--cor-botao-azul);
+		background-color:var(--cor-botao-azul);
+		color: var(--cor-branco);
+		font-family: var(--fonte);
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 2;
+		text-align: center;
+		margin-top:0.25em;
+	}
+
+}

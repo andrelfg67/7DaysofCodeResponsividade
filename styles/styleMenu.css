@@ -13,10 +13,6 @@
 	display: block;
 }
 
-.container__botao:checked~.card{
-	background-color:var(--cor-cinza);
-}
-
 
 .lista-menu{
 	display:none;
