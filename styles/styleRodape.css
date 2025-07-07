@@ -1,0 +1,58 @@
+.card__rodape{
+	width: 360px;
+	height: 58px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border: solid 0.5px;
+	border-color:var(--cor-preto);
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	list-style-type:none;
+	align-content: center;
+	background-color: var(--cor-branco);
+	margin: auto;
+	position: relative;
+	margin-left:8px;
+	position: fixed;
+	top:790px;
+}
+
+.texto__rodape{
+	display: flex;
+	flex-direction:column;
+	font-family:var(--fonte);
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 160%;
+	text-align: center;
+	color:var(--cor-preto);
+	text-decoration: none;
+	align-items: center;
+	justify-content:space-between;
+	margin-top:0.5em;
+}
+
+.rodape__link{
+	text-decoration:none;
+}
+
+.icone__calendario{
+	width: 20px;
+	height: 22px;
+}
+
+.icone__clientes{
+	width: 24px;
+	height: 20px;
+}
+
+.icone__relatorios{
+	width: 14px;
+	height: 18px;
+}
+
+.icone__menu{
+	width: 20px;
+	height: 14px;
+}

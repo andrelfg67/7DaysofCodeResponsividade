@@ -1,0 +1,47 @@
+.botao__video__chamada{
+	width: 139px;
+	height: 48px;
+	border-radius: 8px;
+	border-color:var(--cor-botao-laranja);
+	background-color:var(--cor-botao-laranja);
+	color: var(--cor-branco);
+	font-family: var(--fonte);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.6;
+	text-align: center;
+	margin-left: 16px;
+	margin-top:0.25em;
+}
+
+.botao__audio__chamada{
+	width: 139px;
+	height: 48px;
+	border-radius: 8px;
+	border-color: var(--cor-cinza);
+	background-color:var(--cor-branco);
+	color: var(--cor-preto);
+	font-family: var(--fonte);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.6;
+	text-align: center;
+	margin-top:0.25em;
+	margin-left: 16px;	
+}
+
+.botao__endereco{
+	width: 296px;
+	height: 48px;
+	border-radius: 8px;
+	background-color:var(--cor-botao-azul);
+	border-color: var(--cor-botao-azul);
+	color:var(--cor-branco);
+	font-family: var(--fonte);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.6;
+	text-align: center;
+	margin-top:0.25em;
+	margin-left: 16px;
+}

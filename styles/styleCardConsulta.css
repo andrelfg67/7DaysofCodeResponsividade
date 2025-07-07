@@ -1,0 +1,121 @@
+
+.diario{
+	width: 360px;
+	height: 42px;
+	background-color:var(--cor-branco-opaco);
+	padding-bottom:0.25rem;
+}
+
+.diario__dia{
+	color:var(--cor-preto);
+	font-weight: 700;
+	font-size: 16px;
+	line-height:1.6;
+	font-family:var(--fonte);
+	margin-left:16px;
+}
+
+.card{
+	width: 360px;
+	height: auto;
+	background-color:var(--cor-branco-opaco);
+	padding-bottom:0.25rem;
+}
+
+.card_dados{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.card__consulta{
+	display: flex;
+	flex-direction:column;
+	background-color: var(--cor-branco);
+	width: 328px;
+	height: 150px;
+	margin-left: 16px;
+	border: solid 1px;
+	border-color: var(--cor-cinza);
+	border-radius:8px;
+	list-style-type: none;
+	padding: 0.25em 0 0.25em 0;
+	margin-bottom:16px;
+}
+
+.foto__paciente{
+	width: 32px;
+	height: 32px;
+	margin-left: 16px;
+	border-radius: 16px;
+}
+
+.card__paciente__dados{
+	display: flex;
+	flex-direction:column;
+	padding-top: 0.5em;
+}
+
+.card__paciente__nome{
+	font-family: var(--fonte);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.6;
+	color: var(--cor-preto);
+	margin-left: 16px;
+}
+
+.card__paciente__modalidade{
+	font-family: var(--fonte);
+	font-weight: 400;
+	font-size: 12x;
+	line-height: 1.6;
+	color: var(--cor-preto);
+}
+
+.icone__camera{
+	width: 16px;
+	height: 10.7px;
+	margin-left: 16px;
+}
+
+
+.icone__pin{
+	width: 13.33px;
+	height: 16px;
+	margin-left: 16px;
+}
+
+hr{
+	width: 328px;
+	height: 1px;
+	background-color:var(--cor-preto);
+	opacity: 0.1;
+	margin-top:0.25em;
+}
+
+.card__paciente__modalidade{
+	font-family: var(--font);
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.6;
+	color:var(--cor-cinza);
+}
+
+.icone__chat{
+	width: 13.33px;
+	height: 13.33px;
+	margin-left: auto;
+	margin-right: 16px;
+}
+
+.card__paciente__horario{
+	font-family: var(--fonte);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.6;
+	color: var(--cor-preto);
+	margin-left: 16px;
+	margin-top:0.25em;
+}
+

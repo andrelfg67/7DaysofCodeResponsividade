@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('../styles/styleHome.css');
+@import url('../styles/styleCardConsulta.css');
+@import url('../styles/styleBotoes.css');
+@import url('../styles/styleMenu.css');
+@import url('../styles/styleRodape.css');
+@import url('../styles/styleQuerie.css');
+
+:root{
+	--fonte: "Montserrat", sans-serif;
+	--cor-botao-laranja: rgba(255, 176, 80);
+	--cor-botao-azul: rgba(72, 148, 255);
+	--cor-cinza: #A3A3A3;
+	--cor-preto:#464646;
+	--cor-branco: #FFFFFF;
+	--cor-branco-opaco: #F8F8F8;
+	--cor-borda-card: rgba(236, 236, 236);
+	--cor-fundo-elipse:#F6F6F6;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+

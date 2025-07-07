@@ -1,0 +1,19 @@
+@media screen and (min-width:1023px){
+	.home{
+		width: 768px;
+		height:111px;
+		display:flex;
+		flex-direction: grid;
+		grid-template-columns: 1fr 1fr;
+		gap:16px;
+		background-color:var(--cor-branco-opaco);
+	}
+	
+	.diario{
+	width: 768px;
+	height: 42px;
+	background-color:var(--cor-branco-opaco);
+	padding-bottom:0.25rem;
+}
+
+}
